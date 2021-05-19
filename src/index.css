@@ -1,7 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
 
 html {
-  font-size: 62.5%;
+  font-size: 10px;
   box-sizing: border-box;
 }
 body,
@@ -15,7 +15,7 @@ select,
 button,
 textarea {
   font-family: Montserrat, Helvetica, Arial, sans-serif;
-  font-size: 1.6rem;
+  font-size: 16px;
 }
 
 .grid-container {
@@ -24,7 +24,7 @@ textarea {
     "header"
     "main"
     "footer";
-  grid-template-rows: 5rem 1fr 5rem;
+  grid-template-rows: 50px 1fr 50px;
   grid-template-columns: 1fr;
   height: 100%;
 }
@@ -41,17 +41,14 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 0.5rem;
+  padding: 10px;
 }
 header a {
   color: #ffffff;
   text-decoration: none;
 }
-main {
-  grid-area: main;
-}
+
 footer {
-  grid-area: footer;
   background-color: #203040;
   color: #ffffff;
   display: flex;
@@ -78,12 +75,12 @@ footer {
   align-items: center;
   padding: 0;
   margin: 0;
-  list-style-type: none;
+  list-style: none;
 }
 .products li {
   flex: 0 1 29rem;
-  height: 47rem;
-  padding: 1rem;
+  height: 40rem;
+  padding: 16px;
 }
 .product {
   display: flex;
@@ -106,16 +103,16 @@ footer {
   flex: 1;
 }
 .product-price div {
-  font-size: 2rem;
+  font-size: 22px;
 }
 .button {
-  padding: 1rem;
-  border: 0.1rem #c0c0c0 solid;
+  padding: 10px;
+  border: 1px solid #c0c0c0;
   background-color: #f0f0f0;
   cursor: pointer;
 }
 .button:hover {
-  border: 0.1rem #808080 solid;
+  border: 1px solid #808080;
 }
 .button.primary {
   background-color: #f0c040;
@@ -126,7 +123,7 @@ footer {
   justify-content: space-between;
   padding: 1rem;
   margin: 1rem;
-  border-bottom: 0.1rem #c0c0c0 solid;
+  border-bottom: 1px solid #c0c0c0;
 }
 .filter div {
   flex: 1;
@@ -138,12 +135,12 @@ footer {
   display: flex;
 }
 .cart-header {
-  border-bottom: 0.1rem #c0c0c0 solid;
+  border-bottom: 1px solid #c0c0c0;
 }
 .cart-items {
   padding: 0;
   width: 100%;
-  list-style-type: none;
+  list-style: none;
 }
 .cart-items img {
   width: 5rem;
@@ -189,7 +186,7 @@ form {
 }
 input {
   padding: 1rem;
-  border: 0.1rem #c0c0c0 solid;
+  border: 1px solid #c0c0c0;
 }
 /* Product Details */
 .product-details {
